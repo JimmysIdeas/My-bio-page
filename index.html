@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="bio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <link href="https://fonts.googleapis.com/css2? family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600; 1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+    <title>My personal page</title>
+</head>
+<body>
+    <section class="header">
+        <nav><a href="bio.html"><img src="logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="#index.html">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+                <li><a href="#cv">CV</a></li>
+              <li><a href="#portfolio">PORTFOLIO</a></li>
+            </ul>
+            
+        </div>
+            <i class="fa fa-bars" onclick="showMenu ()"></i>
+        </nav>      
+    </section>
+    
+    <section id="about">  
+        <div class="about-img">
+            <img src="me.jpg" height="800px" width="1000px">
+        </div>
+        <div class="about-col">
+            <h3>A BRIEF ABOUT ME </h3>
+            <p>My name is Afekhai James Omogbai, I'm from Edo state. I graduated from federal polytechnic Auchi, with a higher National Diploma in Electrical Engineering. i am a programming enthusiast, an engineer and a  humanitarian. I have always wanted a platform to use my programming skills for a greater purpose, so thank you Bincom dev for this opportunity</p>        
+        </div>
+    </section>
+    
+              
+    <section id="contact">
+        <h3>CONTACT ME</h3>
+        <p>You can reach out to me on any of the platform below.</p>
+        <div class="contact-info">
+          <ul>
+             <li>
+               <a href="https://x.com/jimafekhai?t=TOPACOdD-LvAykbdlAyz1w&s=09/"  target="_blank" class="fa fa-Twitter"">Twitter</a></li>
+          
+           <li>
+            <a href="https://www.facebook.com/omogbai.afekhai"  target="_blank" class="fa fa-Facebook">Facebook</a></li>
+         <li>   <a href="https://www.instagram.com/jimi_da_vinci_?igsh=MnVjcHJxcWU0M2tl"  target="_blank" class="fa fa-instagram">Instagram</a>
+         </li>
+           <li> 
+             <a href="https://github.com/JimmysIdeas"  target="_blank" class="fa fa-github">Github</a></li>
+            <li><a href="jimmyafekhai@gmail.com"  target="_blank" class="fa fa-envelope"">EMAIL</a></li>
+          </ul>
+        </div>
+    </section>
+
+
+    
+    <section id="portfolio">
+<h3>
+   PORTFOLIO 
+</h3>
+      <div class="row">
+                <div class="portfolio-col">
+                    <img src="nysc.jpg" height="800px" width="1000px">
+                    <div class="layer">
+                        <h2>NYSC</h2>
+                    </div>
+                </div>
+            </div>
+<div class="portfolio-col">
+                    <img src="Redcx.jpg" height="800px" width="850px">
+                    <div class="layer">
+                        <h2>RED CROSS</h2>
+                    </div>
+                </div>
+      <div class="portfolio-col">
+                    <img src="rota1.jpg" height="800px" width="850px">
+                    <div class="layer">
+                        <h2>AT A ROTARY FUNCTION</h2>
+                    </div>
+                </div>
+                <div class="portfolio-col">
+                    <img src="rota2.jpg" height="800px" width="850px">
+                    <div class="layer">
+                        <h2>ROTARY</h2>
+                    </div>
+                </div>
+      <section/>
+          
+    <section id="cv">
+        <h3>CURRICULUM VITAE</h3>
+        <p>Below is my Resume</p  <iframe class="pdf" src="myresumetech.pdf" frameborder="0" height="100px" width="100px">
+            <iframe/>
+         </section>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script>
+      var navLinks=document.getElementById("navLinks"); 
+ function showMenu(){ 
+ navLinks.style.right="0px"; 
+ } 
+ function hideMenu(){ 
+ navLinks.style.right="-200px";
+ }
+ </script>
+</body>
+</html>
