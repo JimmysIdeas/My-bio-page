@@ -96,11 +96,20 @@ transition: 0.5s;
 .about-col:hover{
     box-shadow:0px 0px 20px 0px rgba(0,0,0,0.2)
 }
-.contact-info{
-    height:100%;
-    width:100%;
+#cv{
+    width: 80%;
+    margin: auto;
+    text-align:center;
+    padding-top:50px;
+    }
+    #cv a{ 
+    text-align: center;
+    font-weight:600;
+    margin: 10px 0;
     font-size:35px;
-}
+        
+    }
+
 #portfolio {
     width: 80%;
     margin: auto;
@@ -116,8 +125,8 @@ transition: 0.5s;
     
 }
 .portfolio-col img{
-width:80%; 
-height:50vh;
+width:800px; 
+height:900px;
 }
 .layer{
     background: transparent;
@@ -144,5 +153,17 @@ background: rgba(226,0,0,0.7);
 .layer:hover h2{
     bottom:49%;
     opacity:1;
-  }
-
+}
+.contact-info{
+    list-style:none;
+    text-align:left;
+    height:100%;
+    width:100%;
+    font-size:35px;
+}
+.footer{
+    width: 100%;
+    text-align:center;
+    padding:30px 0;
+       }
+   
